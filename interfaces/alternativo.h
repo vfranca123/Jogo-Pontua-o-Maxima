@@ -5,12 +5,12 @@
 #ifndef alternativo_H
 #define alternativo_H
 
-struct Tuple {
-    int* sequence;
-    int score;
+struct Tupla {
+    int* sequencia;
+    int pontuacao;
 };
 
-int helper(int* sequence, int start, int n, struct Tuple* memo);
+int auxiliar(int* sequencia, int inicio, int n, struct Tupla* memo);
 int alternativo(int* seq, int n);
 
 #endif
